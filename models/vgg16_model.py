@@ -14,7 +14,7 @@ def load_vgg16(device):
     Returns:
         torch.nn.Module: Pretrained VGG16 model.
     """
-    # Update to use 'weights' instead of 'pretrained'
+    
     weights = VGG16_Weights.IMAGENET1K_V1
     model = models.vgg16(weights=weights).to(device)
     model.eval()
