@@ -14,7 +14,7 @@ def load_resnet50(device):
     Returns:
         torch.nn.Module: Pretrained ResNet50 model.
     """
-    # Update to use 'weights' instead of 'pretrained'
+   
     weights = ResNet50_Weights.IMAGENET1K_V1
     model = models.resnet50(weights=weights).to(device)
     model.eval()
