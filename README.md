@@ -1,5 +1,3 @@
-
-```markdown
 # Pixel Ablation-CAM
 
 Pixel Ablation-CAM is an advanced technique for fine-grained interpretation of Convolutional Neural Networks (CNNs). This implementation allows for visualizing the impact of individual pixels on the model's predictions by generating explanation maps and overlaying heatmaps on original images.
@@ -108,6 +106,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 - [ResNet](https://arxiv.org/abs/1512.03385) and [VGG](https://arxiv.org/abs/1409.1556) architectures for their foundational role in CNN research.
 - Thanks to the open-source community for their invaluable resources and libraries.
-
-
-```
